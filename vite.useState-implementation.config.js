@@ -4,11 +4,11 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
     plugins: [react(
-        {
-            babel: {
-                plugins: ['babel-plugin-react-compiler']
-            }
-        }
+        // {
+        //     babel: {
+        //         plugins: ['babel-plugin-react-compiler']
+        //     }
+        // }
     )],
     root: 'workspace-entries/useState-implementation',
     publicDir: 'public',
