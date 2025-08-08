@@ -75,18 +75,6 @@ Open [http://localhost:5274](http://localhost:5274) to view it in your browser.
 
 Runs both implementations simultaneously.
 
-### `npm run build:useState`
-
-Builds the useState implementation for production to the `dist/useState-implementation` folder.
-
-### `npm run build:signals`
-
-Builds the signals implementation for production to the `dist/signals-implementation` folder.
-
-### `npm run build:all`
-
-Builds both implementations for production.
-
 ## How to Observe the Difference
 
 1. Open both implementations in separate browser tabs
@@ -95,3 +83,12 @@ Builds both implementations for production.
 4. Notice the console logs showing which components re-render
 5. In the useState implementation, all components re-render when state changes
 6. In the signals implementation, only components that use the signals re-render
+
+## How to observe the difference using react compiler.
+
+1. Open both implementations in separate browser tabs
+2. Open the browser console
+3. Select and deselect products in both implementations
+4. Notice the console logs showing which components re-render
+5. Uncomment the babel plugin in vite.useState-implementation.config.js
+6. Notice the console logs showing which components re-render
