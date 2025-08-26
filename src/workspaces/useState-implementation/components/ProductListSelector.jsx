@@ -65,4 +65,3 @@ const ProductListSelector = ({ selectedProductList, setSelectedProductList }) =>
 
 export default ProductListSelector;
 
-// Made with Bob

@@ -28,4 +28,3 @@ const ProductListSelector = () => {
 
 export default ProductListSelector;
 
-// Made with Bob

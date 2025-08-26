@@ -19,5 +19,3 @@ export default defineConfig({
         port: 5273
     }
 })
-
-// Made with Bob

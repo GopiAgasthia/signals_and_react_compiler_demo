@@ -31,7 +31,7 @@ const NewsBar = () => {
     ];
 
     // Log to demonstrate re-renders
-    console.log("NewsBar component rendered");
+    console.log("🗞️ NewsBar component rendered");
 
     return (
         <div className="news-section">
@@ -50,4 +50,3 @@ const NewsBar = () => {
 
 export default NewsBar;
 
-// Made with Bob

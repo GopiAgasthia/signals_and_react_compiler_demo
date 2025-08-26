@@ -23,4 +23,3 @@ const Content = ({ selectedProductList, setSelectedProductList }) => {
 
 export default Content;
 
-// Made with Bob

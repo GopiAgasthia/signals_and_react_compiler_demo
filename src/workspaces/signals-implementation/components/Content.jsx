@@ -18,4 +18,3 @@ const Content = () => {
 
 export default Content;
 
-// Made with Bob

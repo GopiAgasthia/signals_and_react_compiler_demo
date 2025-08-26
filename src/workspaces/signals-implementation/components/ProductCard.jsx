@@ -32,5 +32,3 @@ const ProductCard = ({ product }) => {
 };
 
 export default ProductCard;
-
-// Made with Bob

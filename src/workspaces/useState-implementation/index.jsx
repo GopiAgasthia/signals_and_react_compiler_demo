@@ -7,7 +7,6 @@ import "./styles.css";
  * Main App component using useState for state management
  */
 export default function App() {
-    // State for selected products
     const [selectedProductList, setSelectedProductList] = useState([]);
 
     return (
@@ -29,4 +28,3 @@ export default function App() {
     );
 }
 
-// Made with Bob

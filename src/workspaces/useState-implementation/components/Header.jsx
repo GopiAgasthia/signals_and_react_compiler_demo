@@ -22,4 +22,3 @@ const Header = ({ selectedProductList }) => {
 
 export default Header;
 
-// Made with Bob

@@ -6,5 +6,3 @@ import '../../src/index.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
 )
-
-// Made with Bob

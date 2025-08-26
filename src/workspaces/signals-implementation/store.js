@@ -80,4 +80,3 @@ export const toggleProduct = (product) => {
     }
 };
 
-// Made with Bob

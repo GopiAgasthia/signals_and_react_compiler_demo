@@ -4,7 +4,7 @@
  * when the selected products change
  */
 const NewsBar = () => {
-    console.log("NewsBar component rendered");
+    console.log("🗞️ NewsBar component rendered");
 
     const newsItems = [
         {
@@ -46,4 +46,3 @@ const NewsBar = () => {
 
 export default NewsBar;
 
-// Made with Bob
